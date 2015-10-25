@@ -87,7 +87,7 @@ public class MainFrame extends JFrame {
 		
 		Calendar calendar = Calendar.getInstance();
 		int currectYear = calendar.get(Calendar.YEAR);
-		int currentMonth = calendar.get(Calendar.MONTH);
+		int currentMonth = calendar.get(Calendar.MONTH) + 1;
 		
 		//Äê·ÝÑ¡Ôñ¿ò
 		year = new JComboBox<Integer>(years);
